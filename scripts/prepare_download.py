@@ -1,6 +1,6 @@
 """Generate the one-file Markdown edition from canonical docs; never hand edit it."""
 from pathlib import Path
-import re,shutil,json,subprocess,zipfile
+import os,re,shutil,json,subprocess,zipfile
 ROOT=Path(__file__).resolve().parents[1]
 order=["guide","00-foundations","01-modeling","02-sets","03-functions","04-problems","05-duality",
  "06-approximation","07-statistics","08-geometry","appendix-numerics","09-unconstrained",
@@ -47,6 +47,11 @@ with zipfile.ZipFile(download/"凸优化笔记与图表.zip","w",zipfile.ZIP_DEF
 try:
     commit=subprocess.run(["git","rev-parse","HEAD"],cwd=ROOT,text=True,capture_output=True).stdout.strip() or None
 except OSError:commit=None
-version={"edition":"1.0","source":"canonical Markdown","git_commit":commit,"published":False}
+version={
+    "edition":"1.0",
+    "source":"canonical Markdown",
+    "git_commit":commit,
+    "published":os.environ.get("GITHUB_ACTIONS") == "true",
+}
 (ROOT/"docs/public/release.json").write_text(json.dumps(version,ensure_ascii=False,indent=2),encoding="utf-8")
 print("Generated root Markdown, download copy, matching SVG assets, and release.json.")
