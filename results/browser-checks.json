@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-20",
+  "method": "Actual in-app Chromium browser interaction",
+  "desktop": ["home", "guide", "convex functions", "duality", "unconstrained algorithms"],
+  "themes": ["light", "dark"],
+  "search": {"query": "对偶", "selected_target": "/05-duality.html#base-03", "status": "passed"},
+  "mobile": {"width": 390, "page": "05-duality", "document_scroll_width": 375, "formula_count": 208},
+  "narrow": {"width": 320, "page": "09-unconstrained", "document_scroll_width": 320, "images_loaded": true, "formula_count": 117, "chapter_menu": "opened and selected"},
+  "interaction": {"keyboard_end_step": 1.2, "x8": -27.515781, "reset_step": 0.25, "reset_x8": 1.992188, "status": "passed"},
+  "console_errors_last_checked_tab": [],
+  "no_javascript": "SSR content checked; JavaScript was not disabled in the browser",
+  "scope": "Representative pages and controls; not a real student learning study or network performance benchmark"
+}

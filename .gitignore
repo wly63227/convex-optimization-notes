@@ -1,0 +1,17 @@
+node_modules/
+__pycache__/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+tmp/
+.DS_Store
+*.log
+.runtime/
+.venv/
+/.vitepress/
+/.pnpm-store/
+/bv_cvxbook.pdf
+/bv_cvxslides.pdf
+sources/lecture-text/
+sources/pages.json
+/dist/
+/*.zip

@@ -1,0 +1,160 @@
+id	file	anchor	title	pages	depth	importance
+CVX-00-01	00-foundations	base-01	集合与数空间		补充基础	支撑
+CVX-00-02	00-foundations	base-02	向量矩阵与维度		补充基础	核心
+CVX-00-03	00-foundations	base-03	内积与转置		补充基础	核心
+CVX-00-04	00-foundations	base-04	范数与尺度		补充基础	核心
+CVX-00-05	00-foundations	base-05	导数与梯度		补充基础	核心
+CVX-00-06	00-foundations	base-06	Hessian 与二阶近似		补充基础	核心
+CVX-00-07	00-foundations	base-07	正定与半正定		补充基础	核心
+CVX-00-08	00-foundations	base-08	二次函数求导		补充基础	核心
+CVX-01-01	01-modeling	base-01	优化变量目标与约束	4	展开	核心
+CVX-01-02	01-modeling	uses	行动模型与最坏情况	5-9	解释与建模	支撑
+CVX-01-03	01-modeling	base-03	凸性与可求解性的边界	10-11,13-14	解释	核心
+CVX-01-04	01-modeling	dsl	建模语言与求解器分工	15-17	代码页概念解析	支撑
+CVX-01-05	01-modeling	dsl	优化历史与应用	18-19	概览	拓展
+CVX-02-01	02-sets	base-04	仿射集与线性方程	22	展开	核心
+CVX-02-02	02-sets	base-02	凸集定义	23	展开	核心
+CVX-02-03	02-sets	base-05	凸组合与凸包	24	展开	核心
+CVX-02-04	02-sets	base-06	凸锥	25	展开	核心
+CVX-02-05	02-sets	base-03	超平面与半空间	26	展开	核心
+CVX-02-06	02-sets	ellipsoids	球与椭球	27	展开与推导	核心
+CVX-02-07	02-sets	ellipsoids	范数球与二阶锥	28	展开	核心
+CVX-02-08	02-sets	base-05	多面体	29	展开	核心
+CVX-02-09	02-sets	base-06	半正定锥	30	展开	核心
+CVX-02-10	02-sets	base-07	保凸运算与交集	32-33	展开	核心
+CVX-02-11	02-sets	base-07	仿射像与逆像	34-35	解释	核心
+CVX-02-12	02-sets	perspective-map	透视与线性分式映射	36-37	展开与推导	支撑
+CVX-02-13	02-sets	proper-cones	真锥与广义不等式	39-40	展开	核心
+CVX-02-14	02-sets	separation	分离与支撑超平面	42-43	定理与条件	核心
+CVX-03-01	03-functions	base-02	凸函数与严格凸	46	展开	核心
+CVX-03-02	03-functions	base-08	幂指数对数熵及范数	47-48	例子与条件	核心
+CVX-03-03	03-functions	matrix-functions	矩阵变量与谱范数	49	展开	支撑
+CVX-03-04	03-functions	extended-values	扩展值与隐含域	50	展开	核心
+CVX-03-05	03-functions	matrix-functions	沿直线限制与对数行列式	51-52	展开与推导	核心
+CVX-03-06	03-functions	base-05	一阶凸性条件	53	展开与证明	核心
+CVX-03-07	03-functions	base-07	二阶凸性条件	54	展开与证明	核心
+CVX-03-08	03-functions	atoms	二次函数与二次除线性	55	展开与推导	核心
+CVX-03-09	03-functions	atoms	log-sum-exp 与几何平均	56	展开与证明	核心
+CVX-03-10	03-functions	base-09	上图与下水平集	57	展开	核心
+CVX-03-11	03-functions	jensen	Jensen 与对数正态	58-60	推导与图意	核心
+CVX-03-12	03-functions	base-10	凸性判断流程	62	方法	核心
+CVX-03-13	03-functions	base-11	非负和与积分	63	条件与解释	核心
+CVX-03-14	03-functions	base-12	仿射复合	64	展开	核心
+CVX-03-15	03-functions	base-13	逐点最大与上确界	65-66	展开与例子	核心
+CVX-03-16	03-functions	partial-min	部分最小化与 Schur 补	67	展开与推导	核心
+CVX-03-17	03-functions	base-14	标量与多元复合规则	68-70	展开与反例	核心
+CVX-03-18	03-functions	dcp	表达式树与 DCP	72-77	原理与代码页解析	核心
+CVX-03-19	03-functions	perspective	函数透视	79	展开与推导	核心
+CVX-03-20	03-functions	conjugate	共轭函数与算例	80-81	展开与推导	核心
+CVX-03-21	03-functions	quasiconvex	拟凸拟凹与内部收益率	83-86	定义条件与应用	支撑
+CVX-04-01	01-modeling	base-06	标准形式与隐含定义域	89,93	展开	核心
+CVX-04-02	01-modeling	base-07	可行最优局部最优及取得性	90-92	展开与反例	核心
+CVX-04-03	04-problems	variational	可行性问题	94	展开	核心
+CVX-04-04	04-problems	base-01	标准凸问题	95	展开	核心
+CVX-04-05	04-problems	base-03	表达式凸性与等价模型	96	解释与反例	核心
+CVX-04-06	04-problems	base-05	局部最优即全局最优	97	证明	核心
+CVX-04-07	04-problems	variational	变分最优性与正交锥	98-99	推导	核心
+CVX-04-08	04-problems	base-07	线性规划	101	展开	核心
+CVX-04-09	04-problems	lp-examples	饮食模型	102	建模	支撑
+CVX-04-10	04-problems	base-12	分段线性最小化	103	等价变换	核心
+CVX-04-11	04-problems	lp-examples	Chebyshev 中心	104	展开与推导	支撑
+CVX-04-12	04-problems	base-08	凸二次规划	105	展开	核心
+CVX-04-13	04-problems	quadratic-models	约束最小二乘与随机成本	106-107	建模与推导	支撑
+CVX-04-14	04-problems	quadratic-models	QCQP 与椭球交	108	条件与模型	核心
+CVX-04-15	04-problems	base-09	二阶锥规划	109	展开	核心
+CVX-04-16	04-problems	robust-socp	椭球鲁棒与高斯概率约束	110-112	展开与推导	核心
+CVX-04-17	04-problems	conic-relations	一般锥形式	113	解释	支撑
+CVX-04-18	04-problems	base-10	半定规划	114	展开	核心
+CVX-04-19	04-problems	conic-relations	谱范数与 LP SOCP 的 SDP 表示	115-116	等价变换	支撑
+CVX-04-20	04-problems	transformations	变量及函数变换	118-121	条件与例子	核心
+CVX-04-21	04-problems	transformations	等式消元与辅助变量	122-124	推导	核心
+CVX-04-22	04-problems	base-11	上图形式	125	推导	核心
+CVX-04-23	03-functions	partial-min	部分变量消去	126	条件与推导	核心
+CVX-04-24	04-problems	transformations	凸松弛与布尔 LP	127-128	边界与下界	核心
+CVX-04-25	03-functions	dcp	DCP 问题与规范化流程	130-132	原理与代码页解析	核心
+CVX-04-26	04-problems	gp	几何规划与对数变换	134-136	展开推导与手算	核心
+CVX-04-27	04-problems	bisection	拟凸优化与线性分式	138-142	展开与算法	支撑
+CVX-04-28	04-problems	pareto	多目标 Pareto 与正则权衡	144-153	展开与图意	核心
+CVX-05-01	05-duality	base-01	拉格朗日函数	156	展开	核心
+CVX-05-02	05-duality	base-03	对偶函数与下界	157	展开与证明	核心
+CVX-05-03	05-duality	standard-duals	最小范数与标准 LP 对偶	158-159	推导	核心
+CVX-05-04	05-duality	norm-duals	范数最小化对偶	160	推导	支撑
+CVX-05-05	05-duality	partition	二分组与 SDP 下界	161	推导	支撑
+CVX-05-06	05-duality	norm-duals	共轭与拉格朗日对偶	162	推导	核心
+CVX-05-07	05-duality	base-04	对偶问题与 LP 对偶	164-165	展开	核心
+CVX-05-08	05-duality	base-05	强弱对偶与 Slater	166-167	条件与定理	核心
+CVX-05-09	05-duality	standard-duals	不等式 LP 与 QP 对偶	168-169	推导	核心
+CVX-05-10	05-duality	dual-geometry	对偶的支撑几何	170-171	解释	支撑
+CVX-05-11	05-duality	base-10	互补松弛	173	展开与反例	核心
+CVX-05-12	05-duality	base-09	KKT 方程	174	展开	核心
+CVX-05-13	05-duality	base-11	凸问题 KKT 的必要充分性	175	条件与证明	核心
+CVX-05-14	05-duality	base-08	扰动与敏感性	177-179	推导	核心
+CVX-05-15	05-duality	norm-duals	重写原问题获得有用对偶	181-183	推导与解释	支撑
+CVX-05-16	05-duality	alternatives	择一定理与不可行证书	185-189	定理与证书	核心
+CVX-05-17	05-duality	arbitrage	无套利与状态价格	190-192	模型与数值核查	支撑
+CVX-06-01	06-approximation	norm-fitting	范数逼近与 LP 表示	195-196	展开与建模	核心
+CVX-06-02	06-approximation	penalties	惩罚函数残差与 Huber	197-200	推导与图意	核心
+CVX-06-03	06-approximation	least-norm	最小范数与稀疏性	201-202	展开与推导	核心
+CVX-06-04	06-approximation	base-05	正则化权衡	204	展开	核心
+CVX-06-05	06-approximation	augmented	岭回归与增广系统	205	展开与推导	核心
+CVX-06-06	06-approximation	signals	输入设计二次平滑与 TV	206-211	模型推导与图意	核心
+CVX-06-07	06-approximation	worstcase	随机与最坏鲁棒拟合的差别	213-214	建模与图意	支撑
+CVX-06-08	06-approximation	stochastic-robust	随机扰动与正则化	215	完整推导	核心
+CVX-06-09	06-approximation	worstcase	椭球扰动的鲁棒 SDP	216-217	模型与关键等价式	拓展
+CVX-07-01	07-statistics	mle	似然与对数似然的参数角色	220	展开	核心
+CVX-07-02	07-statistics	noise-models	IID 噪声与拟合损失	221-222	完整推导	核心
+CVX-07-03	07-statistics	logistic	逻辑回归	223-224	展开推导与图意	核心
+CVX-07-04	07-statistics	covariance	协方差估计与参数变换	225-226	推导与勘误	核心
+CVX-07-05	07-statistics	sparse-precision	稀疏精度矩阵	227-228	模型与案例解释	支撑
+CVX-07-06	07-statistics	testing	随机检测与似然比	230-232	完整推导	核心
+CVX-07-07	07-statistics	testing	Minimax 检测与随机化	233-234	模型与手算	支撑
+CVX-07-08	07-statistics	design	信息矩阵实验设计与整数松弛	236-239	推导与条件	核心
+CVX-07-09	07-statistics	design-dual	D-optimal 对偶与椭球	240-242	完整推导	支撑
+CVX-08-01	08-geometry	ellipsoid-volume	最小体积外包椭球	245	建模与推导	核心
+CVX-08-02	08-geometry	inscribed	最大体积内接椭球与近似因子	246-247	建模与定理	核心
+CVX-08-03	08-geometry	centers	中心解析障碍与内外椭球	249-252	推导反例与图意	核心
+CVX-08-04	08-geometry	classification	严格线性分离	254	展开与规范化	核心
+CVX-08-05	08-geometry	margin	最大间隔松弛与支持向量	255-257	模型推导与图意	核心
+CVX-08-06	08-geometry	nonlinear	固定特征下的非线性判别	258-260	建模与例子	支撑
+CVX-08-07	08-geometry	placement	位置设计与边长代价	262-263	建模与图意	支撑
+CVX-B-01	appendix-numerics	cost	浮点运算计数与 BLAS	266-268	解释与边界	支撑
+CVX-B-02	appendix-numerics	solve	线性方程的复杂度与简单结构	270-272	展开	核心
+CVX-B-03	appendix-numerics	factorizations	分解求解与多右端缓存	273-275	展开	核心
+CVX-B-04	appendix-numerics	sparsity	稀疏 LU Cholesky 与填充	276,278-279	解释与图意	核心
+CVX-B-05	appendix-numerics	factorizations	Cholesky 与 LDL 分解	277,280	条件与算法	核心
+CVX-B-06	appendix-numerics	schur	分块消元与成本	282-284	完整推导	核心
+CVX-B-07	appendix-numerics	woodbury	低秩更新与求逆引理	285-286	推导与复杂度	支撑
+CVX-09-01	09-unconstrained	base-01	无约束最优与迭代	289-290	展开	核心
+CVX-09-02	09-unconstrained	descent-domain	起点与闭下水平集	291-292	假设与解释	核心
+CVX-09-03	09-unconstrained	base-04	强凸性与误差界	293	条件与推导	核心
+CVX-09-04	09-unconstrained	descent-domain	下降方向与一般下降法	295-296	展开	核心
+CVX-09-05	09-unconstrained	base-05	精确与回溯线搜索	297	展开	核心
+CVX-09-06	09-unconstrained	base-01	梯度下降与停止	298	算法	核心
+CVX-09-07	09-unconstrained	zigzag	梯度法的条件数与算例	299-301	推导与图意	核心
+CVX-09-08	09-unconstrained	steepest	范数最速下降与坐标变化	303-305	推导	核心
+CVX-09-09	09-unconstrained	base-06	牛顿步与线性化	307-308	推导	核心
+CVX-09-10	09-unconstrained	steepest	Hessian 度量的最速下降	309	解释	支撑
+CVX-09-11	09-unconstrained	newton-analysis	减量仿射不变与经典两阶段分析	310-316	展开与条件	核心
+CVX-09-12	09-unconstrained	implementation	大规模稀疏示例	317	案例解释	支撑
+CVX-09-13	09-unconstrained	self-concordance	自协调定义运算与复杂度	319-323	展开推导与勘误	核心
+CVX-09-14	09-unconstrained	implementation	牛顿系统与低秩实现	325-326	推导与成本	核心
+CVX-10-01	10-equality	elimination	等式约束最优性与消元	329,331-332	展开与推导	核心
+CVX-10-02	10-equality	kkt-matrix	KKT 矩阵非奇异性	330	条件与例子	核心
+CVX-10-03	10-equality	feasible-newton	可行牛顿步减量与零空间等价	334-337	完整推导	核心
+CVX-10-04	10-equality	infeasible-newton	原始对偶残差与不可行起点	339-340	完整推导	核心
+CVX-10-05	10-equality	implementation	KKT 系统的 Schur 求解	342	推导	核心
+CVX-10-06	10-equality	analytic-center	解析中心三种解法与成本	343-347	模型与图意	支撑
+CVX-10-07	10-equality	network-flow	网络流关联矩阵与稀疏结构	348-349	建模与结构	支撑
+CVX-10-08	10-equality	matrix-center	矩阵解析中心与块消元	350-352	推导与成本	拓展
+CVX-11-01	11-interior	barrier	光滑不等式问题与障碍近似	355-356,358-359	展开	核心
+CVX-11-02	11-interior	derivatives	障碍导数与力场解释	360,364-365	完整推导	核心
+CVX-11-03	11-interior	central-path	中心路径对偶点与近似互补	361-363	完整推导	核心
+CVX-11-04	11-interior	algorithm	障碍法与外层参数权衡	367-370	算法与图意	核心
+CVX-11-05	11-interior	phase-one	Phase I 与违约量模型	372-376	条件边界与案例	核心
+CVX-11-06	11-interior	complexity	自协调复杂度与最坏迭代界	378-383	关键推导	拓展
+CVX-11-07	11-interior	cone-barriers	广义对数锥障碍与度	385-389	推导	核心
+CVX-11-08	11-interior	sdp	SDP 中心路径与对偶间隙	390	完整推导	支撑
+CVX-11-09	11-interior	cone-barriers	锥障碍法及 SOCP SDP 算例	391-394	方法与图意	支撑
+CVX-11-10	11-interior	primal-dual	原始与对偶内点法	395	概述与教材方程补充	拓展
+CVX-12-01	12-practice	consequences	凸性的理论实践意义与应用流程	397-400	贯通与边界	核心
+CVX-12-02	12-practice	next	后续主题与相关课程	401-402	历史来源与展望	拓展

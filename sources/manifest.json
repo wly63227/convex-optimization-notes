@@ -1,0 +1,18 @@
+[
+  {
+    "file": "bv_cvxslides.pdf",
+    "role": "primary",
+    "pages": 402,
+    "sha256": "a9962e442f0adcad41db5d5467c6f1a61d343e0e6883d3cbf33b8254d565b3aa",
+    "version": "local supplied file; see title/copyright page",
+    "pdf_page_numbering": "physical, starting at 1"
+  },
+  {
+    "file": "bv_cvxbook.pdf",
+    "role": "reference",
+    "pages": 714,
+    "sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "version": "local supplied file; see title/copyright page",
+    "pdf_page_numbering": "physical, starting at 1"
+  }
+]

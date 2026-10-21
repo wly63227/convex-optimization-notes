@@ -1,0 +1,15 @@
+:root{--vp-c-brand-1:#176b62;--vp-c-brand-2:#258375;--vp-c-brand-3:#176b62;--vp-font-family-base:"Segoe UI","Microsoft YaHei",sans-serif;--vp-layout-max-width:1480px}
+.dark{--vp-c-brand-1:#70cebd;--vp-c-brand-2:#84d8c9;--vp-c-brand-3:#258375}
+.vp-doc{font-size:17px;line-height:1.95}
+.vp-doc h2{margin-top:52px;letter-spacing:.01em}
+.vp-doc h3{margin-top:32px}
+.vp-doc p{margin:20px 0}
+.vp-doc img{max-width:100%;height:auto;border-radius:10px}
+.dark .vp-doc img[src$=".svg"]{filter:invert(.88) hue-rotate(180deg)}
+.vp-doc table{font-size:14px;line-height:1.7;max-width:100%;overflow:auto}
+.vp-doc mjx-container{max-width:100%;overflow-x:auto;overflow-y:hidden;padding:8px 0}
+.vp-doc mjx-container[display="true"]{margin:24px 0!important}
+.course-note{border-left:3px solid var(--vp-c-brand-1);padding:8px 18px;background:var(--vp-c-bg-soft);margin:24px 0}
+.figure-caption{color:var(--vp-c-text-2);font-size:14px}
+@media(min-width:960px){.VPDoc.has-aside .content-container{max-width:800px!important}}
+@media(max-width:640px){.vp-doc{font-size:16px}.vp-doc h1{font-size:27px;line-height:1.5}}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "rendered_pages": 25,
+  "math": "SSR SVG, no reported errors",
+  "js_python_agreement": true,
+  "release": {
+    "edition": "1.0",
+    "source": "canonical Markdown",
+    "git_commit": "HEAD",
+    "published": false
+  }
+}
